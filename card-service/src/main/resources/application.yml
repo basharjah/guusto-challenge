@@ -1,0 +1,31 @@
+
+ spring:
+   datasource:
+     url: jdbc:h2:mem:guustodb
+     driver-class-name: org.h2.Driver
+     username: root
+     password: password
+   h2:
+     console:
+       path: /h2
+       enabled: true
+       settings:
+         web-allow-others: true
+   cloud:
+     function:
+       definition: orderSupplier;paymentEventConsumer
+     stream:
+       bindings:
+         orderSupplier-out-0:
+           destination: order-event
+         paymentEventConsumer-in-0 :
+           destination: payment-event
+       kafka:
+         binder:
+           replication-factor: 1
+
+ server:
+   port: 8081
+
+
+

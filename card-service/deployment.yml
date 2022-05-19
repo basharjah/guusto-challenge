@@ -1,0 +1,41 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: card-service-lb
+spec:
+  type: LoadBalancer
+  selector:
+    app: card-service
+  ports:
+    - port: 9091
+      targetPort: 8081
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: card-service-deployment
+  labels:
+    app: card-service
+spec:
+  selector:
+    matchLabels:
+      app: card-service
+  replicas: 2
+  minReadySeconds: 5
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: card-service
+    spec:
+      terminationGracePeriodSeconds: 1
+      containers:
+        - name: card-service-container
+          image: aklahoti/card-service:0.0.1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8081

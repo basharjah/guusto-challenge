@@ -1,0 +1,484 @@
+{
+  "id": "BB5476",
+  "product_type": "inline",
+  "model_number": "IAZ12",
+  "name": "Gazelle Shoes",
+  "meta_data": {
+    "canonical": "//www.adidas.co.uk/gazelle-shoes/BB5476.html",
+    "description": "Shop for Gazelle Shoes - Black at adidas.co.uk! See all the styles and colours of Gazelle Shoes - Black at the official adidas UK online store.",
+    "keywords": "Gazelle Shoes",
+    "page_title": "adidas Gazelle Shoes - Black | adidas UK",
+    "site_name": "adidas United Kingdom"
+  },
+  "view_list": [
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/61f87dec481e4512823ea7fb0080ba1a_9366/Gazelle_Shoes_Black_BB5476_01_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "imageStyle": "Standard",
+        "view": "Side Lateral Center View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "1",
+        "subjects": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "other",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b94b0e16ce1343f8bc3ca60501799631_9366/Gazelle_Shoes_Black_BB5476_02_standard_hover.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp",
+          "plp"
+        ],
+        "imageStyle": "Standard",
+        "view": "Top Portrait View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "2",
+        "subjects": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/8eaa5605d5294d348fd8a60501798ba0_9366/Gazelle_Shoes_Black_BB5476_03_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "imageStyle": "Standard",
+        "view": "Bottom View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "3",
+        "subjects": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/de4fe345315746039934a7fb0080deaa_9366/Gazelle_Shoes_Black_BB5476_04_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "imageStyle": "Standard",
+        "view": "Front Lateral Top View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "4",
+        "subjects": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4bea833201784323a15ca7fb0080eb80_9366/Gazelle_Shoes_Black_BB5476_05_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "imageStyle": "Standard",
+        "view": "Back Lateral Top View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "5",
+        "subjects": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/68b2cce6c1db4120a89ea7fb0080c53d_9366/Gazelle_Shoes_Black_BB5476_06_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "imageStyle": "Standard",
+        "view": "Side Medial Center View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "6",
+        "subjects": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "standard",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/54c086129c774aee9c4ea6a900abd058_9366/Gazelle_Shoes_Black_BB5476_09_standard.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "imageStyle": "Standard",
+        "view": "Mirrored Pair View",
+        "usageTerms": "eCommerce",
+        "sortOrder": "7",
+        "subjects": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/e940a084cde441a48cb1a6050179b4c0_9366/Gazelle_Shoes_Black_BB5476_41_detail.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "imageStyle": "Standard",
+        "view": "Detail View 1",
+        "usageTerms": "eCommerce",
+        "sortOrder": "8",
+        "subjects": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2bda44fe705e4af69cf7a6050179bb6a_9366/Gazelle_Shoes_Black_BB5476_42_detail.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "imageStyle": "Standard",
+        "view": "Detail View 2",
+        "usageTerms": "eCommerce",
+        "sortOrder": "9",
+        "subjects": [
+          {}
+        ]
+      }
+    },
+    {
+      "type": "detail",
+      "source": "CLOUDINARY",
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/66523e8b142f415d986da7fb008104c8_9366/Gazelle_Shoes_Black_BB5476_43_detail.jpg",
+      "metadata": {
+        "asset_usage": [
+          "pdp"
+        ],
+        "imageStyle": "Standard",
+        "view": "Detail View 3",
+        "usageTerms": "eCommerce",
+        "sortOrder": "10",
+        "subjects": [
+          {}
+        ]
+      }
+    }
+  ],
+  "attribute_list": {
+    "sale": false,
+    "brand": "Originals",
+    "color": "Core Black / Footwear White / Clear Granite",
+    "gender": "U",
+    "outlet": false,
+    "sport": [
+      "Lifestyle"
+    ],
+    "category": "Shoes",
+    "sportSub": [
+      "Trefoil",
+      "Classics",
+      "Gazelle"
+    ],
+    "size_fit_bar": {
+      "value": "ftw_3",
+      "markerCount": 5,
+      "selectedMarkerIndex": 2
+    },
+    "collection": [
+      "Paris",
+      "Les Favoris des Français",
+      "London",
+      "Vintage",
+      "Mini Me",
+      "Gifts",
+      "BS",
+      "test_plp_1",
+      "test_plp_2",
+      "test_plp_3",
+      "test_plp_4",
+      "test_plp_5",
+      "test_plp_6",
+      "test_plp_7",
+      "test_plp_8",
+      "HOME OF CLASSICS",
+      "Spring Shopping Event",
+      "School"
+    ],
+    "search_color": "Black",
+    "customizable": false,
+    "productType": [
+      "Trainers",
+      "Lifestyle Trainers"
+    ],
+    "personalizable": true,
+    "isCnCRestricted": false,
+    "mandatory_personalization": false,
+    "search_color_raw": "Black",
+    "is_orderable": true,
+    "isWaitingRoomProduct": false,
+    "isInPreview": false,
+    "specialLaunch": false,
+    "special_launch_type": "NONE",
+    "sizeTypes": {},
+    "is_flash": false,
+    "size_chart_link": "/on/demandware.store/Sites-adidas-GB-Site/en_GB/Page-Include?cid=size-chart-size-shoes"
+  },
+  "breadcrumb_list": [
+    {
+      "text": "Originals",
+      "link": "/originals"
+    },
+    {
+      "text": "Shoes",
+      "link": "/originals-shoes"
+    }
+  ],
+  "pricing_information": {
+    "currentPrice": 70,
+    "standard_price": 70,
+    "standard_price_no_vat": 58.33
+  },
+  "product_description": {
+    "title": "Gazelle Shoes",
+    "text": "A low-profile classic. The Gazelle shoe started life as a football trainer and grew into an iconic streetwear staple. This pair honours the favorite version of 1991, with the same materials, colours and slightly wider proportions. A leather upper gives these shoes a smooth touch and soft feel.",
+    "subtitle": "The 1991 Gazelle returns in a one-to-one reissue.",
+    "usps": [
+      "Lace closure",
+      "Leather upper",
+      "Rubber outsole",
+      "Enjoy the comfort and performance of OrthoLite® sockliner"
+    ],
+    "wash_care_instructions": {
+      "care_instructions": []
+    },
+    "description_assets": {
+      "image_url": "https://assets.adidas.com/images/w_600,f_auto,q_auto/de4fe345315746039934a7fb0080deaa_9366/Gazelle_Shoes_Black_BB5476.jpg",
+      "video_url": null,
+      "poster_url": null
+    }
+  },
+  "recommendationsEnabled": true,
+  "product_link_list": [
+    {
+      "type": "color-variation",
+      "productId": "B41645",
+      "name": "Gazelle Shoes",
+      "url": "/gazelle-shoes/B41645.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/340aeb9ac43847fea000a8da0182b561_9366/Gazelle_Shoes_Burgundy_B41645_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/340aeb9ac43847fea000a8da0182b561_9366/Gazelle_Shoes_Burgundy_B41645_01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 70
+      },
+      "search_color": "Burgundy",
+      "default_color": "Collegiate Burgundy / Cloud White / Cloud White",
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "BB5472",
+      "name": "Gazelle Shoes",
+      "url": "/gazelle-shoes/BB5472.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/28e054c800ea44a4a8bea7fb007fc05d_9366/Gazelle_Shoes_Pink_BB5472_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/28e054c800ea44a4a8bea7fb007fc05d_9366/Gazelle_Shoes_Pink_BB5472_01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 75
+      },
+      "search_color": "Pink",
+      "default_color": "Vapor Pink / White / Gold Metallic",
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "BB5478",
+      "name": "Gazelle Shoes",
+      "url": "/gazelle-shoes/BB5478.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/698e41ae0196408eb16aa7fb008046ad_9366/Gazelle_Shoes_Blue_BB5478_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/698e41ae0196408eb16aa7fb008046ad_9366/Gazelle_Shoes_Blue_BB5478_01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 70
+      },
+      "search_color": "Blue",
+      "default_color": "Collegiate Navy / White / Gold Metallic",
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "BB5480",
+      "name": "Gazelle Shoes",
+      "url": "/gazelle-shoes/BB5480.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/a847e062376346299a7ca80200807c9c_9366/Gazelle_Shoes_Grey_BB5480_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/a847e062376346299a7ca80200807c9c_9366/Gazelle_Shoes_Grey_BB5480_01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 70
+      },
+      "search_color": "Grey",
+      "default_color": "Dark Grey Heather / White / Gold Metallic",
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "BB5498",
+      "name": "Gazelle Shoes",
+      "url": "/gazelle-shoes/BB5498.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4c9364eb1521438a8b8ba627009a6a1f_9366/Gazelle_Shoes_White_BB5498_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4c9364eb1521438a8b8ba627009a6a1f_9366/Gazelle_Shoes_White_BB5498_01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 70
+      },
+      "search_color": "White",
+      "default_color": "Cloud White / Cloud White / Gold Metallic",
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "CQ2809",
+      "name": "Gazelle Shoes",
+      "url": "/gazelle-shoes/CQ2809.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/97f86eede1374615a058a81700a27444_9366/Gazelle_Shoes_Black_CQ2809_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/97f86eede1374615a058a81700a27444_9366/Gazelle_Shoes_Black_CQ2809_01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 70
+      },
+      "search_color": "Black",
+      "default_color": "Core Black / Core Black / Core Black",
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "EE8943",
+      "name": "Gazelle Shoes",
+      "url": "/gazelle-shoes/EE8943.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b26c58379b934a52ac97a9d80110e9cc_9366/Gazelle_Shoes_Grey_EE8943_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b26c58379b934a52ac97a9d80110e9cc_9366/Gazelle_Shoes_Grey_EE8943_01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 75
+      },
+      "search_color": "Grey",
+      "default_color": "Grey Four / Core Black / Gum5",
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "EE8947",
+      "name": "Gazelle Shoes",
+      "url": "/gazelle-shoes/EE8947.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2c839f6fd06c4c8fb1a2a9d7010922e5_9366/Gazelle_Shoes_Green_EE8947_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2c839f6fd06c4c8fb1a2a9d7010922e5_9366/Gazelle_Shoes_Green_EE8947_01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 70,
+        "sale_price": 45.5
+      },
+      "badge_style": "custom",
+      "badge_text": "SUMMER SALE",
+      "search_color": "Green",
+      "default_color": "Night Cargo / Core Black / Gum5",
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "EF5567",
+      "name": "Gazelle Shoes",
+      "url": "/gazelle-shoes/EF5567.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9e56abc1b1564d4d9751ab0a00a4992a_9366/Gazelle_Shoes_Green_EF5567_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9e56abc1b1564d4d9751ab0a00a4992a_9366/Gazelle_Shoes_Green_EF5567_01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 75
+      },
+      "search_color": "Green",
+      "default_color": "Trace Cargo / Cloud White / Glory Red",
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "FX5485",
+      "name": "Gazelle Shoes",
+      "url": "/gazelle-shoes/FX5485.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/00e42b5cd92941c59616ac8a011ec40a_9366/Gazelle_Shoes_Black_FX5485_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/00e42b5cd92941c59616ac8a011ec40a_9366/Gazelle_Shoes_Black_FX5485_01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 70,
+        "sale_price": 52.5
+      },
+      "badge_style": "custom",
+      "badge_text": "SUMMER SALE",
+      "search_color": "Black",
+      "default_color": "Core Black / Fox Orange / Cloud White",
+      "source": "CLOUDINARY"
+    },
+    {
+      "type": "color-variation",
+      "productId": "FX5494",
+      "name": "Gazelle Shoes",
+      "url": "/gazelle-shoes/FX5494.html",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3a64f5f68fa54dcf95daac9400922cd3_9366/Gazelle_Shoes_Beige_FX5494_01_standard.jpg",
+      "altImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3a64f5f68fa54dcf95daac9400922cd3_9366/Gazelle_Shoes_Beige_FX5494_01_standard.jpg",
+      "pricing_information": {
+        "standard_price": 70,
+        "sale_price": 49
+      },
+      "badge_style": "custom",
+      "badge_text": "SUMMER SALE",
+      "search_color": "Beige",
+      "default_color": "Hazy Beige / Fox Orange / Gum",
+      "source": "CLOUDINARY"
+    }
+  ],
+  "embellishment": {
+    "embellishmentOptions": [
+      {
+        "position": "leftShoe",
+        "positionPrice": 5,
+        "allowChooseOwnText": true,
+        "fields": [
+          {
+            "type": "text",
+            "key": "leftShoeText",
+            "maxLength": 11,
+            "minLength": 0,
+            "validation": "^[#@?&%$0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ ]*$",
+            "textColor": "adidas - 401 White",
+            "usesStock": false,
+            "stockCollection": null
+          }
+        ]
+      },
+      {
+        "position": "rightShoe",
+        "positionPrice": 5,
+        "allowChooseOwnText": true,
+        "fields": [
+          {
+            "type": "text",
+            "key": "rightShoeText",
+            "maxLength": 11,
+            "minLength": 0,
+            "validation": "^[#@?&%$0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ ]*$",
+            "textColor": "adidas - 401 White",
+            "usesStock": false,
+            "stockCollection": null
+          }
+        ]
+      }
+    ],
+    "articleType": "footwear"
+  }
+}

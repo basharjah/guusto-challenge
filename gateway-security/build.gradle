@@ -1,0 +1,87 @@
+plugins {
+    id 'org.springframework.boot' version '2.5.0'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+    id 'com.palantir.docker' version '0.26.0'
+    id 'com.palantir.docker-run' version '0.26.0'
+}
+
+group = 'com.guusto'
+version = '0.0.1'
+sourceCompatibility = '11'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    set('springCloudVersion', "2020.0.3")
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
+    implementation 'org.projectlombok:lombok'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'redis.clients:jedis'
+    //implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+   // implementation 'org.springframework.boot:spring-boot-starter-security'
+    //implementation 'org.springdoc:springdoc-openapi-ui:latest.release'
+    //implementation 'commons-io:commons-io:2.6'
+   // implementation 'io.jsonwebtoken:jjwt:0.9.1'
+    //implementation 'io.projectreactor:reactor-core:3.4.6'
+   // implementation 'org.springframework.data:spring-data-jpa:2.5.1'
+    implementation 'com.fasterxml.jackson.module:jackson-module-kotlin'
+
+
+
+
+
+
+
+   // testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+    //compileOnly 'org.mapstruct:mapstruct:1.4.2.Final'
+    //annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
+
+    //runtimeOnly 'com.h2database:h2'
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
+build{
+
+
+}
+test {
+    useJUnitPlatform()
+}
+
+String imageName = "${project.group}/${project.name}"
+docker {
+    //dependsOn build
+    dockerfile project.file('Dockerfile')
+    name imageName
+    files bootJar.archiveFile.get()
+    buildArgs(['JAR_FILE': "${bootJar.archiveFileName.get()}"])
+}
+dockerRun {
+    name "${project.name}-container"
+    image imageName
+    ports '8082:8082'
+    env 'SPRING_PROFILES_ACTIVE': 'dev'
+    daemonize true
+    clean false
+}
