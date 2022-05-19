@@ -3,11 +3,13 @@
 ## Overview
 * I developed this solution using microservices depand on Orchestration-based saga pattern approach.
   with tow microservices `card-service` and `balance-service` with `common-dto` module for exchanging messages between them.
-* 1-The Card Service receives the POST /orders request and creates the Create Order saga orchestrator
-* 2- The saga orchestrator creates an Order in the PENDING state
-* 3- It then sends a Reserve Credit command to the Balance Service
-* 4- The Balance Service compares the total amount of order with customer's balance, the process of subtracting from the balance in the balance table and adding the number of cards in the gift table
-* 5- It then sends back a reply message indicating the outcome
+* 1-When Card Service receives the (POST /orders),It creates order and publishes this order on order-event in common-dto
+* 2- Balance-service listen to order-event and read the coming order 
+* 3- balance-service checks balance of customer in balance table, and compare its value with value of order.
+- if balance sufficient, then Payment completed and deduct amount price DB and add quantity of gift
+- if payment not sufficient -> cancel card event and update the balance in DB.
+* 5- It then sends back a reply message indicating the outcome to payment-event in common-dto
+* 6-Order-service listen to payment-event, It receives the message and complete the operation. 
 * Each microservice `card-service` , `balance-service` and `gateway-security` can build, run, dockerize, deploy & run independently using Docker, Kubernetes, and Jenkins
 
 ## TOOls
